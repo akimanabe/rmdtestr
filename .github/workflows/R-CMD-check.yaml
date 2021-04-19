@@ -26,3 +26,8 @@ jobs:
           options(crayon.enabled = TRUE)
           rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
         shell: Rscript {0}
+      - name: Github action for rmarkdown
+      　uses: lucharo/rmarkdown-action@v1
+      　with:
+          input_file: foo.Rmd
+	  　　　output_format: pdf_document
