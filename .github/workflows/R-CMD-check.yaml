@@ -26,5 +26,3 @@ jobs:
           options(crayon.enabled = TRUE)
           rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
         shell: Rscript {0}
-      - name: Github action for rmarkdown
-      　uses: lucharo/rmarkdown-action@v1
