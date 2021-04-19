@@ -30,4 +30,4 @@ jobs:
       　uses: lucharo/rmarkdown-action@v1
       　with:
           input_file: foo.Rmd
-	  　　　output_format: pdf_document
+	  　　　# output_format: pdf_document
